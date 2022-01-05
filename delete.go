@@ -1,4 +1,4 @@
-package psql
+package postgresql
 
 // DeleteSingleRecord
 // Example of connection string (dsn): "host=localhost user=postgres password=postgres dbname=postgres port=5432 sslmode=disable"

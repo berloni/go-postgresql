@@ -1,4 +1,4 @@
-module github.com/berloni/go-psql
+module github.com/berloni/go-postgresql
 
 go 1.17
 
