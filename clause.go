@@ -67,7 +67,7 @@ func createWhereClause(queryCondition QueryCondition) (string, []interface{}, er
 			if i > 0 {
 				query += "AND "
 			}
-			query += v.Column + " LIKE ? "
+			query += v.Column + " ILIKE ? "
 			args = append(args, "%"+v.Value+"%")
 		}
 	}
